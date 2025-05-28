@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+
+  <!-- Text -->
+  <label for="username">Username:</label>
+  <input type="text" id="username" name="username" placeholder="Enter username" maxlength="20" minlength="4" required>
+  <br><br>
+
+  <!-- Password -->
+  <label for="password">Password:</label>
+  <input type="password" id="pssworad" name="password" placeholder="Enter password" maxlength="20" required>
+  <br><br>
+
+  <!-- Email -->
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" placeholder="example@mail.com" required>
+  <br><br>
+
+  <!-- Number -->
+  <label for="age">Age:</label>
+  <input type="number" id="age" name="age" min="1" max="120" step="1">
+  <br><br>
+
+  <!-- Date -->
+  <label for="dob">Date of Birth:</label>
+  <input type="date" id="dob" name="dob">
+  <br><br>
+
+  <!-- Time -->
+  <label for="time">Select Time:</label>
+  <input type="time" id="time" name="time">
+  <br><br>
+
+  <!-- Checkbox -->
+  <input type="checkbox" id="agree" name="terms" checked>
+  <label for="agree">I agree to the terms and conditions</label>
+  <br><br>
+
+  <!-- Radio -->
+  <label>Gender:</label><br>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label>
+  <br><br>
+
+  <!-- File -->
+  <label for="resume">Upload Resume:</label>
+  <input type="file" id="resume" name="resume" accept=".pdf,.docx">
+  <br><br>
+
+  <!-- Color -->
+  <label for="color">Favorite Color:</label>
+  <input type="color" id="color" name="color" value="#ff0000">
+  <br><br>
+
+  <!-- Range -->
+  <label for="volume">Volume (0 to 100):</label>
+  <input type="range" id="volume" name="volume" min="0" max="100" step="5">
+  <br><br>
+
+  <!-- Search -->
+  <label for="search">Search:</label>
+  <input type="search" id="search" name="search" placeholder="Search here...">
+  <br><br>
+
+  <!-- Tel -->
+  <label for="phone">Phone Number:</label>
+  <input type="tel" id="phone" name="phone" placeholder="01234567890" pattern="[0-9]{11}">
+  <br><br>
+
+  <!-- URL -->
+  <label for="website">Your Website:</label>
+  <input type="url" id="website" name="website" placeholder="https://example.com">
+  <br><br>
+
+  <!-- Hidden -->
+  <input type="hidden" name="userId" value="12345">
+
+  <!-- Submit -->
+  <input type="submit" value="Submit">
+  
+  <!-- Reset -->
+  <input type="reset" value="Reset">
+
+</form>
+
+</body>
+</html>
